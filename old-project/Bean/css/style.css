@@ -1,0 +1,500 @@
+html, body {
+	margin: 0;
+	padding: 0;
+    width: 100%;
+	background:url("../images/backgrounds/background.jpg");
+	/*	https://akspic.com/image/14431-black-line-brick-texture-wall
+	*/
+	color: #fff;
+}
+
+div img {
+    border-radius: 75px;
+    /*padding: 0px 32.5%;*/
+    width: 327px;
+    border: white thin solid;
+}
+
+.lotText{
+	line-height: 20px;
+	font-size: 15px;
+}
+
+#form {
+	background: url("../images/backgrounds/div background.jpg");
+	/* https://www.google.com/imgres?imgurl=https://scottfabrics.com/wp-content
+	/uploads/2017/03/impressions-around-around-cocoa-1024x1024.jpg&imgrefurl=
+	https://scottfabrics.com/product/around-around-cocoa/&h=1024&w=1024&tbnid=
+	Dqd_QMHAqeMYxM&tbnh=225&tbnw=225&usg=K_-LYUvPXBWmfr4N8HZW14kikK5D4=&hl=
+	en&docid=brIXn1g1t3KXaM
+	*/
+	width: 80%;
+	margin: 8px auto;
+	border-radius: 25px;
+	font-size: 20px;
+	line-height: 25px;
+	padding: 1% 3%;
+}
+.top {
+	display: inline; border: white thin solid; 
+	margin-right: 50px; 
+	background-color: black;
+}
+#form p {
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
+#fix {
+	margin: 0px auto 10px auto;
+	/*padding: 0px 32.5%;*/
+	text-align: center;
+	/*position:relative;*/
+	/*border: thick pink solid;
+	/*border-radius: 20px;*/
+}
+
+#fix img {
+	max-height: 250px;
+}
+
+input {
+	width: 100%;
+	border: black solid thin;
+	margin-bottom: 10.px;
+}
+
+input:last-of-type {
+	margin-bottom: 20px;
+}
+
+footer {
+	width: 100%;
+	height: 4%;
+	font-size: 18px;
+	/*line-height: 20px;*/
+	text-align: center;
+	background-image: url("../images/backgrounds/FooterBackground.jpg");
+	/* https://www.nowwknow.info/2018/11/coffeea-cup-of-happiness.html 
+	*/
+	background-size: contain;
+	margin-top: 1.5%;
+}
+body {
+	font-family: "Helvetica Neue",sans-serif;
+	font-weight: lighter;
+}
+
+header {
+	width: 100%;
+    height: 10vh;
+	/*margin-bottom: 2%;*/
+    /*background-size: cover;*/
+}
+
+.content {
+	width: 80%;
+	margin: 1.25% auto;
+	font-size: 20px;
+	line-height: 30px;
+	padding: 1% 3%;
+	text-align: center;
+	border-radius: 25px;
+	background: url("../images/backgrounds/div background.jpg");
+	/* https://www.google.com/imgres?imgurl=https://scottfabrics.com/wp-content
+	/uploads/2017/03/impressions-around-around-cocoa-1024x1024.jpg&imgrefurl=
+	https://scottfabrics.com/product/around-around-cocoa/&h=1024&w=1024&tbnid=
+	Dqd_QMHAqeMYxM&tbnh=225&tbnw=225&usg=K_-LYUvPXBWmfr4N8HZW14kikK5D4=&hl=
+	en&docid=brIXn1g1t3KXaM
+	*/
+}
+.content li {
+	text-align: left;
+}
+#menu{
+	margin: 5px auto;
+	width: 95%;
+	min-height: 400px;
+	padding: 0px;
+}
+.menuItem {
+	width: 98%;
+	margin: 5px 0px 0px 0px;
+	border: thick white solid;
+	min-height: 150px;
+}
+
+.menuItem img{
+	width: 30%;
+	height: 150px;
+	float: left;
+	/*margin-right: 0px;*/
+	/*margin: 0px;
+	padding: 0px;
+	width: 30%;*/
+	
+	/*border: thick pink solid;*/
+	/*min-height: inherit;
+	border: green solid thick;*/
+}
+.price {
+	display: inline;
+	/*margin-left: 50px;*/
+}
+.details {
+	/*max-height: 150px;*/
+	height: 150px;
+	float: right;
+	/*border: solid green thin;*/
+	width: 68%;
+	padding: 0px;
+	padding-right: 3.5px;
+	margin: 0px;
+	/*width: 60%;*/
+	/*line-height: 20px;
+	font-size: 14px;
+	/*border: thick purple solid;*/
+	/*padding-right: 2px;*/
+}
+h3 {
+	margin: 0px 8px 0px auto;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	display: inline-block;
+	height: 3%;
+	line-height: 15px;
+	/*border: pink solid thick;*/
+	/*width: inherit;*/
+}
+h4 {
+	margin: 0px;
+	font-size: 15px;
+	margin-top: 20px;
+}
+h2 {
+	clear: both;
+	
+}
+.details ul {
+	/*height: 85%;*/
+	margin-top: -2px;
+	line-height: 18px;
+	font-size: 15px;
+	font-family: Comic Sans MS Header;
+	/*margin-bottom: 2px;*/
+}
+
+.details p {
+	line-height: 19px;
+	/*font-size: 14px;*/
+}
+.inc {
+	list-style: none;
+	font-weight: 800;
+	border-bottom: white solid thin;
+}
+.menuItem p {
+	margin: 0px 8px;
+	text-align: center;
+	float: none;
+	width: 98%;
+}
+.content p {
+	text-align: left;
+}
+
+iframe {
+	margin-bottom: 10px;
+}
+
+#linkDiv {
+	border: thin #FFF solid;
+	border-radius: 25px;
+	width: 80%;
+	font-weight: lighter;
+	font-size: 18px;
+	list-style: none;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	color: #FFF;
+	background: url("../images/backgrounds/FooterBackground.jpg");
+	background-size: contain;
+}
+
+#linkDiv p {
+	display: inline;
+	padding: 0px 12px;
+}
+a {
+	color: #FFF;
+}
+a:hover {
+	color: #A0522D;
+}
+.logo {
+      line-height: 60px;
+      position: fixed;
+      float: left;
+      margin: 16px 46px;
+      color: #fff;
+      font-weight: bold;
+      font-size: 20px;
+      letter-spacing: 2px;
+}
+
+nav {
+      position: fixed;
+      width: 100%;
+      line-height: 60px;
+	z-index: 10;
+}
+
+nav ul {
+      line-height: 60px;
+      list-style: none;
+      background: rgba(0, 0, 0, 0);
+      overflow: hidden;
+      color: #fff;
+      padding: 0;
+      text-align: right;
+      margin: 0;
+      padding-right: 40px;
+      transition: .6s;
+}
+
+nav.black ul {
+      background: #000;
+}
+
+nav ul li {
+      display: inline-block;
+      padding: 16px 40px;
+}
+
+nav ul li a {
+      text-decoration: none;
+      color: #fff;
+      font-size: 16px;
+}
+
+.menu-icon {
+      line-height: 60px;
+      width: 100%;
+      background: #000;
+      text-align: right;
+      box-sizing: border-box;
+      padding: 15px 24px;
+      cursor: pointer;
+      color: #fff;
+      display: none;
+}
+
+#about {
+	border: white thin solid;
+	border-radius: 5px;
+	padding: 1% 3%;
+}
+
+#hours {
+	background-color: black;
+	border-radius: 18px;
+	height: 180px;
+	/*width: 1%;*/
+	
+/*
+	margin-left: 4%;
+	margin-right: 4%;
+	margin-bottom: 15px;
+*/
+}
+
+/*below this point is the "pre op"*/
+.gallery {
+	
+	/*width: 50%;
+/*
+	padding: 0px;
+	margin: 0px;
+*/
+	/*width: 60%;
+	height: 35%;
+	/*box-shadow: 0px 0px 10px black;*/
+	/*overflow: hidden;*/
+	height: 180px;
+	position: relative;
+	z-index: 5;
+}
+#about p {
+	clear:both;
+}
+.gi {
+    height: 176px;
+	width: 100%;
+    /*max-height: 100%;*/
+    /*min-width: 100%;*/
+    position: absolute;
+    /*z-index: 5;*/
+/*
+    padding: 0px;
+    margin: 0px;
+*/
+   left: 0px;
+    top: 1px;
+}
+.active {
+	z-index: 10;
+}
+/*above this point is the "pre op"*/
+@media(min-width: 910px){
+
+.menuItem:nth-child(1){
+	float: left;
+	width: 48.5%;
+}
+.menuItem:nth-child(2) {
+	float: right;
+	width: 48.5%;
+}
+.menuItem:nth-child(3){
+	float: left;
+	width: 48.5%;
+}
+.menuItem:nth-child(4) {
+	float: right;
+	width: 48.5%;
+}
+.menuItem:nth-child(5) {
+	float: left;
+	width: 48.5%;
+}
+.menuItem:nth-child(6) {
+	float: right;
+	width: 48.5%;
+}
+.menuItem:nth-child(7) {
+	float: left;
+	width: 48.5%;
+}
+.menuItem:nth-child(8) {
+	float: right;
+	width: 48.5%;
+}
+.menuItem p {
+	line-height:25px;
+}
+#hours {
+	float: left;
+	width: 26%;
+	
+	margin-left: 15%;
+	margin-right: auto;
+}
+.gallery {
+	margin-top: 0px;
+	float: right;
+	width: 26%;
+	margin-right: 15%;
+	margin-left: auto;
+}
+.top{
+	visibility: hidden;	
+}
+	
+}
+@media(max-width: 905px) {
+	#hours {
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 10px;
+	}
+	.gallery {
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+}
+@media(max-width: 786px) {
+	/*menu{
+		min-height: 1500px;
+	}
+	.menuItem {
+		width: 100%;
+	}
+	.details p {
+		line-height: 18px;
+	}
+	.content{
+		min-height: 1440px;
+	}
+	.menuItem {
+		/*float: none;
+		width: 100%;
+	}*/
+	#fix img{
+	width: 80%;
+}
+      .logo {
+            position: fixed;
+            top: 0;
+            margin-top: 16px;
+      }
+	
+	header {
+		height: 25vh;
+	}
+      nav ul {
+            max-height: 0px;
+            background: #000;
+      }
+
+      nav.black ul {
+            background: #000;
+      }
+
+      .showing {
+            max-height: 34em;
+      }
+
+      nav ul li {
+            box-sizing: border-box;
+            width: 100%;
+            padding: 24px;
+            text-align: center;
+      }
+
+      .menu-icon {
+            display: block;
+      }
+	.details p {
+		font-size: 14px;
+	}
+}
+
+@media(min-width: 768px) {
+	/*nav ul {
+		padding-left: 5px;
+	}*/
+	.content {
+		/*min-height: 1450px;*/
+	}
+	
+	.menuItem {
+		/*float: none;*/
+		width: 100%;
+	}
+	.menuItem p {
+		font-size: 10px;
+	}
+	.price{
+		margin-top: 0px;
+	}
+	.details p {
+		margin-top: 8px;
+		font-size: 18px;
+	}
+	nav ul li{
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+}

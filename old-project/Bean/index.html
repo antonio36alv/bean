@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Bean | Coffee Shop</title>
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+</head>
+<body>
+      <div class="wrapper">
+            <header>
+
+                  <nav>
+<!--  -->                    <div class="menu-icon">
+                              <i class="fa fa-bars fa-2x"></i>
+                        </div>
+
+                        <div style="border-bottom: thin solid white; padding-bottom: 0px" class="logo">
+							Bean
+                    	</div>
+
+                        <div class="menu">
+                              <ul>
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="coffee.html">Coffee/Beverages</a></li>
+                                    <li><a href="food.html">Food/Pastries</a></li>
+                                    <li><a href="catering.html">Catering</a></li>
+                                    <li><a href="fundraising.html">Fundraising</a></li>
+                              </ul>
+                        </div>
+                  </nav>
+
+            </header>
+		  </div>
+	<div id="fix"><img src="images/backgrounds/LogoBackground.jpg" alt="Bean's Logo"></div>
+	<!-- https://seabeancoffeecompany.com/about	  
+	-->
+		<div class="content">
+			<div id="about">
+			<p><h1 style="text-align: center">Bean</h1></p>
+			<p>About Bean/History: We are a brand new Coffee Shop in town. We offer more than just coffee and amazing food. We offer
+			a place of bliss, to relax, as you kick start the day. We offer ways to enable our communities through fundraising.
+			We are there for you when you need us, whether it's your morning routine coffee stop or the treat for the entire office. 
+			"Words can't espresso how much you bean to me."</p>
+			<div id="hours">
+			<p>Hours: Monday &ndash; Friday: 6:30AM&ndash;10:00PM</p>
+			<p>Saturday: 8:00AM &ndash;9:00PM</p>
+			<p>Sunday: 9:00AM &ndash;8:00PM</p>
+			</div>
+			<div class="gallery">
+					<img class="gi" src="images/food/cake.jpg" alt="Coffee Cake">
+					<img class="active gi" src="images/drinks/coffee.jpg" alt="Coffee">
+					<img class="gi" src="images/food/muffins.jpg" alt="Muffins">
+					<img class="gi" src="images/drinks/macchiato.jpg" alt="Macchiato">
+					<img class="gi" src="images/food/calzone.PNG" alt="Breakfast Calzone">
+		  	</div>
+			
+			<h2>Staff:</h2> 
+			<p>Meredith Baxter, General Manager: Meredith brings top notch quality service while ensuring equality
+			of quality service througout the business. Graduate of Joseph Poon Chef Kitchen/ Culinary School. If America runs
+			Dunkin, well then Dunkin runs on her.</p>
+			<p>Donovan Hofmann, Master Barista: The only better pair betterthan Michael Jordan and Basketball is Donovan and 
+			Coffee. A renowned talent that knows the insides and outs of the coffee game is here to make your experience a 
+			unique one.</p>
+			<p>Jessica Albert, Assistant Manager: If Donovan is the Micael
+			Jordan of coffee, Jessica is the Steve Jobs of Coffee. A Graduate of CASA (The Chef Apprentice School of the Arts,
+			Location: Los Angeles, CA), she is in charge of training the staff, as well as typical busienss duties. "I use 
+			artificial sweetener at work. I add it to everything I say to my boss."</p>
+		  	</div>
+		</div>
+
+<footer>Bean LLC. Located: 275 Swamp Road Newtown, PA 18940, Phone Number: 215-968-8000</footer>
+      <script type="text/javascript">
+
+      // Menu-toggle button
+
+      $(document).ready(function() {
+            $(".menu-icon").on("click", function() {
+                  $("nav ul").toggleClass("showing");
+            });
+      });
+
+      // Scrolling Effect
+
+      $(window).on("scroll", function() {
+            if($(window).scrollTop()) {
+                  $('nav').addClass('black');
+            }
+
+            else {
+                  $('nav').removeClass('black');
+            }
+	  });
+		 
+	//gallery doo hickey
+	function slider(){
+		$current = $('.gi.active');
+		if($current.length==0){
+			$('.gi:first-child').addClass('active');
+		}else{
+			$next = $current.removeClass('active').next();
+				if($next.length==0){
+					$('.gi:first-child').addClass('active');
+				}else{
+					$next.addClass('active');
+				}
+		}
+	}
+	setInterval(slider,2000);
+	
+      </script>
+
+</body>
+</html>
