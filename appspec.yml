@@ -6,13 +6,13 @@ os: linux
 hooks:
   ApplicationStop:
     - location: scripts/kill_container.sh
-      timeout: 300
+      timeout: 60
       runas: ec2-user
   AfterInstall:
     - location: scripts/pull_image.sh
-      timeout: 300
+      timeout: 60
       runas: ec2-user
   ApplicationStart:
     - location: scripts/start_container.sh
-      timeout: 300
+      timeout: 60
       runas: ec2-user
