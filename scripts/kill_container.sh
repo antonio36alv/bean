@@ -1,5 +1,2 @@
-#!/usr/bin/env bash
-
-set -e
-
+#!/bin/bash
 docker rm -f bean || true
