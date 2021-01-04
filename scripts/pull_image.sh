@@ -1,7 +1,3 @@
-#!/usr/bin/env bash
-
+#!/bin/bash
 yum update -y
-
-set -e
-
 docker pull meepz/bean
