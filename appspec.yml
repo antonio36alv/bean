@@ -4,10 +4,6 @@ os: linux
 #   - source: docker/middleman_docker_image.tar.gz
 #     destination: /tmp
 hooks:
-  TestStuff:
-    - location: scripts/test.sh
-      timeout: 300
-      runas: ec2-user
   ApplicationStop:
     - location: scripts/kill_container.sh
       timeout: 300
