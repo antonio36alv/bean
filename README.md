@@ -1,5 +1,5 @@
 # bean
-Refactoring my an old HTML + CSS project. Converting it to React JS and adding a Spring Boot back end.
+Refactoring my an old HTML + CSS project. Converting it to React JS and adding a Spring Boot back end. Old project can be found [here](./old-project).
 
 
 ### Workflow - WIP
