@@ -9,5 +9,5 @@ new code will be pushed to the repo (all work and pushes will only be to new bra
 workflow will do the following: run JavaScript tests, maven build/test the Java portion, create pull request and merge into master (upon the success of previous jobs).
 Lastly, once code is pushed into master another workflow will build a new docker image and push it to Docker Hub.
 
-As for the continous delivery portion for this project, code deploy will be triggered once we push a new docker image or every so often will check to see if there is a
-new latest docker image. Code Deploy will pull the image, kill the running container and run the new image.
+This code is then pulled by AWS Code Pipeline where it is deployed to an EC2 container. The EC2 container will be running docker and will simply pull and deploy the newest
+docker image available.
